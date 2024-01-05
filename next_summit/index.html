@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link rel="stylesheet" type="text/css" href="static/css/index.css">
+    <script src="./static/js/jquery-1.12.4.min.js"></script>
     <style type="text/css">
         
         
@@ -46,7 +47,7 @@
             </div>
         </div>
     </div>
-    <div class="next_page" align="center" style="margin-top: 96px;">
+    <div class="next_page" align="center" style="margin-top: 96px;background: black;" data-name="NeXT_Summit">
         <div class="next_page_card">
             <div class="next_page_card_bg">
                 <div class="next_page_card_bg_content" align="left">
@@ -103,7 +104,7 @@
             <div class="next_page_card_line"></div>
         </div>
     </div>
-    <div class="next_page" align="center" style="margin-top: 96px;">
+    <div class="next_page" align="center" style="margin-top: 96px;" data-name="About">
         <div class="next_page_card">
             <div class="next_page_card_bg1" style="min-height:995px;">
                 <div class="next_page_card_bg_content" align="left" style="width: 936px;min-height: 805px;">
@@ -119,13 +120,13 @@
                     </div>
                     <div class="next_page_card_bg_content_subtitles" align="center">
                         <div class="next_page_card_bg_content_subtitles_desc" style="font-size:14px;">Hosted by</div>
-                        <img src="static/img/logo_square_1.png" style="width: 192.985px;height: 48px;">
+                        <img src="static/img/next_summit_logo.jpeg" style="width: 192.985px;height: 48px;">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="next_page" align="center" style="margin-top: 96px;">
+    <div class="next_page" align="center" style="margin-top: 96px;" data-name="About2">
         <div class="next_page_card">
             <div class="next_page_card_bg1" style="min-height:calc(946.43px + 96px);">
                 <div class="next_page_card_bg_content" align="left" style="width: 936px;min-height: 805px;height: auto;">
@@ -162,7 +163,7 @@
             </div>
         </div>
     </div>
-    <div class="next_page" align="center" style="margin-top: 96px;">
+    <div class="next_page" align="center" style="margin-top: 96px;" data-name="Intro">
         <div class="next_page_card">
             <div class="next_page_card_bg1" style="min-height:calc(1009px + 96px);">
                 <div class="next_page_card_bg_content" align="left" style="width: 936px;min-height: 805px;height: auto;gap:48px;">
@@ -221,28 +222,236 @@
             </div>
         </div>
     </div>
-    <div class="next_page" align="center" style="margin-top: 96px;">
+    <div class="next_page" align="center" style="margin-top: 96px;" data-name="Agenda">
         <div class="next_page_card">
-            <div class="next_page_card_bg1" style="min-height:1772px;">
-                
+            <div class="next_page_card_bg1" style="min-height:calc(1772px + 96px);" align="left">
+                <div class="next_page_card_bg_content" style="width:936px;height: auto;">
+                    <div class="next_page_card_bg_content_title">Agenda</div>
+                    <div class="next_page_card_bg_content_subtitles">
+                        <div class="next_page_card_bg_content_subtitles_title" style="font-size:20px;">Closed Meeting - IMMERSIVE CINEMA EXPERIENCE HIGHEND FORUM</div>
+                    </div>
+                    <div class="next_page_card_bg_content_subtitles">
+                        <div class="next_page_card_bg_content_subtitles_desc">Time: 10:00-12:00 am and 13:00-18:00 pm on June 13th, 2023.</div>
+                        <div class="next_page_card_bg_content_subtitles_desc">Venue: Conference Room 2, Shanghai World Expo Exhibition Hall</div>
+                        <div class="next_page_card_line1" style="margin:48px auto 24px auto"> </div>
+                    </div>
+                    <div class="next_page_card_like_tables">
+                        <div class="next_page_card_like_tables_title">
+                            <div class="next_page_card_like_tables_title_text">Kick-off</div>
+                        </div>
+                        <table class="next_page_card_like_tables_main">
+                            <tr>
+                                <th class="table_first">Time</th>
+                                <th class="table_second">Agenda</th>
+                                <th class="table_third">Theme</th>
+                            </tr>
+                            <tr>
+                                <td class="table_first">9:30 - 10:00 am</td>
+                                <td class="table_second">Sign in</td>
+                                <td class="table_third">Sign</td>
+                            </tr>
+                            <tr>
+                                <td class="table_first"> 10:00 - 10:30 am</td>
+                                <td class="table_second">Greeting</td>
+                                <td class="table_third">Speech by NeXT SCENE</td>
+                            </tr>
+                            <tr>
+                                <td class="table_first"></td>
+                                <td class="table_second"></td>
+                                <td class="table_third">Speech by Shanghai International Film Forum</td>
+                            </tr>
+                        </table>
+                        <div class="next_page_card_like_tables_title" style="border-radius: 0px;">
+                            <div class="next_page_card_like_tables_title_text" style="font-size:20px;">Part 1: Film and Cinema Industry Sharing</div>
+                        </div>
+                        <table class="next_page_card_like_tables_main">
+                            <tr>
+                                <td class="table_first">10:30 - 12:00 am</td>
+                                <td class="table_second">Film and cinema industry sharing</td>
+                                <td class="table_third">Present situation of cinema &cases &future trend sharing</td>
+                            </tr>
+                            <tr>
+                                <td class="table_first"></td>
+                                <td class="table_second"></td>
+                                <td class="table_third">Bestar cinema - Seazen Holdings Co</td>
+                            </tr>
+                            <tr>
+                                <td class="table_first"></td>
+                                <td class="table_second"></td>
+                                <td class="table_third">Wanda cinema line</td>
+                            </tr>
+                            <tr>
+                                <td class="table_first">12:00 - 13:00 pm</td>
+                                <td class="table_second">Intermission</td>
+                                <td class="table_third"></td>
+                            </tr>
+                        </table>
+                        <div class="next_page_card_like_tables_title" style="border-radius: 0px;">
+                            <div class="next_page_card_like_tables_title_text" style="font-size:20px;">Part 2: Case Solution of Cross-border Integration Entertainment Business Cooperation</div>
+                        </div>
+                        <table class="next_page_card_like_tables_main">
+                            <tr>
+                                <td class="table_first">15:00 - 17:00 pm</td>
+                                <td class="table_second">Case Solution of Cross-border Integration Entertainment Business Cooperation</td>
+                                <td class="table_third">Secret room script killing-offline real-life entertainment case sharing</td>
+                            </tr>
+                            <tr>
+                                <td class="table_first"></td>
+                                <td class="table_second"></td>
+                                <td class="table_third">Drama Musical Solution Case Sharing</td>
+                            </tr>
+                            <tr>
+                                <td class="table_first"></td>
+                                <td class="table_second"></td>
+                                <td class="table_third">Case sharing of metaverse XR solution</td>
+                            </tr>
+                            <tr>
+                                <td class="table_first"></td>
+                                <td class="table_second"></td>
+                                <td class="table_third">Case sharing of nightclub tide play solution</td>
+                            </tr>
+                        </table>
+                        <div class="next_page_card_like_tables_title" style="border-radius: 0px;">
+                            <div class="next_page_card_like_tables_title_text" style="font-size:20px;">Part 3: Copyright IP business expansion section/business analysis</div>
+                        </div>
+                        <table class="next_page_card_like_tables_main">
+                            <tr>
+                                <td class="table_first">17:00 - 17:30 pm</td>
+                                <td class="table_second">Copyright IP business expansion section/business analysis</td>
+                                <td class="table_third">Copyright cooperation</td>
+                            </tr>
+                            <tr>
+                                <td class="table_first"></td>
+                                <td class="table_second"></td>
+                                <td class="table_third">Parent-child play solution case sharing</td>
+                            </tr>
+                        </table>
+                        <div class="next_page_card_like_tables_title" style="border-radius: 0px;">
+                            <div class="next_page_card_like_tables_title_text" style="font-size:20px;">Copy Roundtable Discussion: Capital operation, future entertainment consumption</div>
+                        </div>
+                        <table class="next_page_card_like_tables_main">
+                            <tr>
+                                <td class="table_first">17:30 - 18:00 pm</td>
+                                <td class="table_second">Capital operation, future entertainment consumption</td>
+                                <td class="table_third">Capital forum</td>
+                            </tr>
+                            <tr>
+                                <td class="table_first">18:00 - 19:00 pm</td>
+                                <td class="table_second">VIP private board meeting tea break</td>
+                                <td class="table_third">VIP tea break forum (for VIP and guests only)</td>
+                            </tr>
+                            <tr>
+                                <td class="table_first"></td>
+                                <td class="table_second"></td>
+                                <td class="table_third">Content x business x capital closed-door guest exchange meeting directly docking resources</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="next_page" align="center" style="margin-top: 96px;">
+    <div class="next_page" align="center" style="margin-top: 96px;" data-name="Speakers">
         <div class="next_page_card">
             <div class="next_page_card_bg2" style="min-height:2131px;">
-                
+                <div class="next_page_card_bg_content" align="left" style="width: 936px;height: auto;">
+                    <div class="next_page_card_bg_content_title">Speakers</div>
+                    <div class="next_page_card_line1"></div>
+                    <div class="next_page_card_bg_content_gap">
+                        <div class="next_page_card_bg_content_gpa_title" style="font-size:24px;">Content / Research</div>
+                        <div class="next_page_card_bg_content_gpa_desc" style="flex-wrap:unset;overflow-y: auto;">
+                            <img class="img_200_236" src="static/img/speakers/001.png">
+                            <img class="img_200_236" src="static/img/speakers/002.png">
+                            <img class="img_200_236" src="static/img/speakers/003.png">
+                            <img class="img_200_236" src="static/img/speakers/004.png">
+                            <img class="img_200_236" src="static/img/speakers/001.png">
+                            <img class="img_200_236" src="static/img/speakers/002.png">
+                            <img class="img_200_236" src="static/img/speakers/003.png">
+                            <img class="img_200_236" src="static/img/speakers/004.png">
+                        </div>
+                    </div>
+                    <div class="next_page_card_bg_content_gap">
+                        <div class="next_page_card_bg_content_gpa_title" style="font-size:24px;">Space</div>
+                        <div class="next_page_card_bg_content_gpa_desc" style="flex-wrap:unset;overflow-y: auto;">
+                            <img class="img_200_236" src="static/img/speakers/005.png">
+                            <img class="img_200_236" src="static/img/speakers/006.png">
+                            <img class="img_200_236" src="static/img/speakers/007.png">
+                            <img class="img_200_236" src="static/img/speakers/008.png">
+                        </div>
+                    </div>
+                    <div class="next_page_card_bg_content_gap">
+                        <div class="next_page_card_bg_content_gpa_title" style="font-size:24px;">Technology</div>
+                        <div class="next_page_card_bg_content_gpa_desc" style="flex-wrap:unset;overflow-y: auto;">
+                            <img class="img_200_236" src="static/img/speakers/009.png">
+                            <img class="img_200_236" src="static/img/speakers/010.png">
+                            <img class="img_200_236" src="static/img/speakers/011.png">
+                            <img class="img_200_236" src="static/img/speakers/012.png">
+                        </div>
+                    </div>
+                    <div class="next_page_card_bg_content_gap">
+                        <div class="next_page_card_bg_content_gpa_title" style="font-size:24px;">Copyright</div>
+                        <div class="next_page_card_bg_content_gpa_desc" style="flex-wrap:unset;overflow-y: auto;">
+                            <img class="img_200_236" src="static/img/speakers/013.png">
+                            <img class="img_200_236" src="static/img/speakers/014.png">
+                            <img class="img_200_236" src="static/img/speakers/015.png">
+                        </div>
+                    </div>
+                    <div class="next_page_card_bg_content_gap">
+                        <div class="next_page_card_bg_content_gpa_title" style="font-size:24px;">Investment and Financing</div>
+                        <div class="next_page_card_bg_content_gpa_desc" style="flex-wrap:unset;overflow-y: auto;">
+                            <img class="img_200_236" src="static/img/speakers/016.png">
+                            <img class="img_200_236" src="static/img/speakers/017.png">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="next_page" align="center" style="margin-top: 96px;">
+    <div class="next_page" align="center" style="margin-top: 96px;" data-name="Media">
         <div class="next_page_card">
             <div class="next_page_card_bg2" style="min-height:965px;">
-                
+                <div class="next_page_card_bg_content" align="left" style="width: 936px;min-height:773px;height: auto;">
+                    <div class="next_page_card_bg_content_title">Media Coverage</div>
+                    <div class="next_page_card_line1"></div>
+                    <div class="next_page_card_bg_content_desc_news" style="margin:24px 0px;">
+                        <div class="next_page_card_bg_content_desc_new" style="gap:8px;min-height: 160px;">
+                            <div class="next_page_card_bg_content_desc_new_brand">Light and shadow shooting</div>
+                            <div class="next_page_card_bg_content_desc_new_title">CEO Zhijie Yu</div>
+                            <div class="next_page_card_bg_content_desc_new_desc">NeXT SCENE Exclusively Released The White Paper On The Development Of Global Immersive Design Industry In 2020.</div>
+                        </div>
+                        <div class="next_page_card_bg_content_desc_new" style="gap:8px;min-height: 160px;">
+                            <div class="next_page_card_bg_content_desc_new_brand">CCTV</div>
+                            <div class="next_page_card_bg_content_desc_new_title">Title</div>
+                            <div class="next_page_card_bg_content_desc_new_desc">NeXT SCENE Exclusively Released The White Paper On The Development Of Global Immersive Design Industry In 2020.</div>
+                        </div>
+                        <div class="next_page_card_bg_content_desc_new" style="gap:8px;min-height: 160px;">
+                            <div class="next_page_card_bg_content_desc_new_brand">CCTV</div>
+                            <div class="next_page_card_bg_content_desc_new_title">Title</div>
+                            <div class="next_page_card_bg_content_desc_new_desc">NeXT SCENE Exclusively Released The White Paper On The Development Of Global Immersive Design Industry In 2020.</div>
+                        </div>
+                    </div>
+                    <div class="next_page_card_bg_content_desc_news" style="margin:-24px 0px;">
+                        <div class="next_page_card_bg_content_desc_new" style="gap:8px;min-height: 160px;">
+                            <div class="next_page_card_bg_content_desc_new_brand">Light and shadow shooting</div>
+                            <div class="next_page_card_bg_content_desc_new_title">CEO Zhijie Yu</div>
+                            <div class="next_page_card_bg_content_desc_new_desc">NeXT SCENE Exclusively Released The White Paper On The Development Of Global Immersive Design Industry In 2020.</div>
+                        </div>
+                        <div class="next_page_card_bg_content_desc_new" style="gap:8px;min-height: 160px;">
+                            <div class="next_page_card_bg_content_desc_new_brand">CCTV</div>
+                            <div class="next_page_card_bg_content_desc_new_title">Title</div>
+                            <div class="next_page_card_bg_content_desc_new_desc">NeXT SCENE Exclusively Released The White Paper On The Development Of Global Immersive Design Industry In 2020.</div>
+                        </div>
+                        <div class="next_page_card_bg_content_desc_new" style="gap:8px;min-height: 160px;">
+                            <div class="next_page_card_bg_content_desc_new_brand">CCTV</div>
+                            <div class="next_page_card_bg_content_desc_new_title">Title</div>
+                            <div class="next_page_card_bg_content_desc_new_desc">NeXT SCENE Exclusively Released The White Paper On The Development Of Global Immersive Design Industry In 2020.</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="next_page" align="center" style="margin-top: 96px;">
+    <div class="next_page" align="center" style="margin-top: 96px;" data-name="Partners">
         <div class="next_page_card">
             <div class="next_page_card_bg2" style="min-height:1646px;">
                 <div class="next_page_card_bg_content" align="left" style="width: 936px;height: auto;">
@@ -313,7 +522,7 @@
             </div>
         </div>
     </div>
-    <div class="next_page" align="center" style="margin-top: 96px;">
+    <div class="next_page" align="center" style="margin-top: 96px;" data-name="Contact">
         <div class="next_page_card">
             <div class="next_page_card_bg2" style="min-height:856px;">
                 <div class="next_page_card_bg_content" align="left" style="width: 936px;height: 664px;">
@@ -334,8 +543,16 @@
             </div>
         </div>
     </div>
-
-    
+    <div class="next_page_menus" align="right">
+        <div class="next_page_menu next_page_menu_current" data-name="NeXT_Summit">NeXT Summit</div>
+        <div class="next_page_menu" data-name="About">About</div>
+        <div class="next_page_menu" data-name="Intro">Intro</div>
+        <div class="next_page_menu" data-name="Agenda">Agenda</div>
+        <div class="next_page_menu" data-name="Speakers">Speakers</div>
+        <div class="next_page_menu" data-name="Media">Media</div>
+        <div class="next_page_menu" data-name="Partners">Partners</div>
+        <div class="next_page_menu" data-name="Contact">Contact</div>
+    </div>
 </body>
 </html>
 <script src="static/js/index.js"></script>
